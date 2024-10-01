@@ -58,7 +58,7 @@ const Login = () => {
             <button className='bg-gray-700 h-10 mt-10 font-bold text-white text-xl rounded-xl mx-auto px-9 text-center focus:outline-none' onClick={handleLogin}>Login</button>
 
 
-            <div className='text-center mt-10'>
+            <div className='text-center mt-2'>
                 {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
             </div>
         </div>
