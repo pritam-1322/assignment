@@ -42,7 +42,7 @@ const Login = () => {
         <>
         <div className='w-screen h-screen flex flex-col justify-center items-center bg-black'>
         <h3 className='text-center p-10 font-bold text-2xl text-white'>Login Page</h3>
-        <div className='flex flex-col w-2/5 h-1/2 py-9 px-5 bg-gray-300 rounded-xl '>
+        <div className='flex flex-col md:w-2/5 md:h-1/2 py-9 px-5 bg-gray-300 rounded-xl sm:w-4/5 sm:h-5/6 w-9/12 '>
         <input className='w-full px-3 h-10 my-2 rounded-md focus:outline-none'
                 type="text"
                 placeholder="Username"
